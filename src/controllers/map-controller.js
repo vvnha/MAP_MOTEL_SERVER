@@ -24,3 +24,8 @@ exports.searchPlace = async (req, res) => {
       .send(new ReturnResult(null, null, null, error.message, null));
   }
 };
+
+exports.test = async (req, res) => {
+  console.log('ok');
+  res.status(400).send(new ReturnResult(null, null, 'OK', null, null));
+};
