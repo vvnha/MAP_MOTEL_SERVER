@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "name": "music-album",
+  "version": 1,
+  "name": "motel server",
   "builds": [{ "src": "app.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "/app.js" }]
+  "routes": [{ "src": "/(.*)", "dest": "/src/app.js" }]
 }
